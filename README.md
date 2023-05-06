@@ -5,11 +5,11 @@ Sample ecommerce webapp clothing store.
 Install xampp for linux.
 
 ### Add webapp files to xampp
-Move default `htdocs` dir: `sudo mv /opt/lampp/htdocs /opt/lampp/oldhtdocs`
-Move all webapp files to xampps `htdocs`(must be in ecommerce_webapp dir for this cmd): `sudo mkdir /opt/lampp/htdocs && sudo cp -r * /opt/lampp/htdocs`
-Xampp seems to require 777 perms on all htdocs files or all pages return 403 forbidden: `sudo chmod -R 777 /opt/lampp/htdocs`
 
-Start xampp: `sudo /opt/lampp/xampp start`
+- Move default `htdocs` dir: `sudo mv /opt/lampp/htdocs /opt/lampp/oldhtdocs`
+- Move all webapp files to xampps `htdocs`(must be in ecommerce_webapp dir for this cmd): `sudo mkdir /opt/lampp/htdocs && sudo cp -r * /opt/lampp/htdocs`
+- Xampp seems to require 777 perms on all htdocs files or all pages return 403 forbidden: `sudo chmod -R 777 /opt/lampp/htdocs`
+- Start xampp: `sudo /opt/lampp/xampp start`
 
 Webapp should be running at `http://localhost:80`, but it won't work properly until database setup
 
