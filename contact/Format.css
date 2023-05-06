@@ -1,0 +1,55 @@
+
+.container input /*Container Input Class for Contact Us Form Text Boxes  */
+{
+    clear: both; /* Clear both sides */
+}
+
+.btnreset /*Reset Button */ 
+{
+    background-color: #000000; /*Background colour set to Black*/
+    color: #FFFFFF; /*Text colour set to white */
+    border: 2px solid #FFFFFF; /*Border set to 2px and colour set to white*/
+    padding: 15px 15px; /*Padding set to 15px*/
+    font-family: 'Agency FB', 'Comic Sans MS', 'sans-serif'; /* Font Family - Agency FB Primary Font */
+    margin: 8px 0; /*Margin set to 8px and 0px */
+    cursor: pointer; /*Will allow user to hover */
+    font-weight: bold; /*Font weight set to bold  */ 
+    font-size:25px; /*Font size set to 25px  */ 
+}
+
+    .btnreset:hover /*Hover class for reset button */ 
+    {
+        background-color: #162CA2; /*Background colour set to blue */
+        color: #fbca03; /*Text colour set to Yellow*/
+        border: 2px solid #000000; /*Border set to 2px and colour set to black*/
+        font-weight: bold; /*Font weight set to Bold  */ 
+    }
+
+.btnsubmit /*Submit Button */ 
+{
+    background-color: #000000; /*Background colour set to black */
+    color: #FFFFFF; /*Text colour set to white */
+    border: 2px solid #FFFFFF; /*Border set to 2px and colour set to black */
+    font-family: 'Agency FB', 'Comic Sans MS', 'sans-serif'; /* Font Family - Agency FB Primary Font */
+    padding: 15px 15px; /*Padding set to 15px */
+    margin: 8px 0; /*Margin set to 8px and 0px */
+    cursor: pointer; /*Will allow user to hover */
+    font-weight: bold; /* Font weight set to bold */ 
+    font-size: 25px; /* Font weight set to 25px */ 
+}
+
+    .btnsubmit:hover /*Hover class for submit button */ 
+   {
+        background-color: #162CA2;  /*Background colour set to blue */
+        color: #fbca03; /*Text colour set to yellow */
+        border: 2px solid #000000; /*Border set to 2px and colour set to black*/
+        font-weight: bold; /* Font weight set to bold  */ 
+    }
+
+h1 /* Headings */ {
+    font-size: 100px; /* Font to 100px */
+    color: #342628; /* Font colour set to Grey*/
+    -webkit-text-stroke-width: 4px; /*Text outline set to 4px*/
+    -webkit-text-stroke-color: #FFFFFF; /*Text outline colour set to white*/
+}
+

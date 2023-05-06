@@ -1,0 +1,10 @@
+.store-info h4 {
+  text-align: center;
+  padding-top: 20px;
+  width: 100%
+}
+
+.store-info-paragraph {
+  padding-left: 80px;
+  padding-right: 160px;
+}

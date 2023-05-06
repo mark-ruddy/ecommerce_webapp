@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #eeeeee;
+}
+
+br {
+  line-height: 50%;
+}
+
+.error {
+  color: red;
+  line-height: 70%;
+}
+
+.user-input {
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 340px;
+}
+
+.wide-input {
+  width: 340px;
+}
+
+.entry {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.top-input {
+  /*border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; */
+  margin-bottom: -1px;
+}
+
+.confirm {
+  /*border-top-left-radius: 0;
+  border-top-right-radius: 0; */
+  margin-bottom: 10px;
+}
+
+#remember-checkbox {
+  width: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+
+#remember-label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.under-text {
+  padding-top: 25px;
+  line-height: 5px;
+}
